@@ -19,11 +19,9 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-var common = require('../common');
 var assert = require('assert');
 
-var url = require('url'),
-    util = require('util');
+var url = require('url');
 
 // URLs to parse, and expected data
 // { url : parsed }
